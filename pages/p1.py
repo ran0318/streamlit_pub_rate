@@ -4,8 +4,8 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
-import nltk
-nltk.download('stopwords')
+#import nltk
+#nltk.download('stopwords')
 
 
 st.title("금리 관련 기사 검색 결과")
