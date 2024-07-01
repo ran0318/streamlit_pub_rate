@@ -44,7 +44,7 @@ else:
 # 필터링된 데이터프레임의 갯수 출력
 st.write(f"검색된 기사 수: {filtered_df.shape[0]} 개")
 
-st.write('검색된 기사의 본문으로 워드 클라우드를 만들었습니다.')
+#st.write('검색된 기사의 본문으로 워드 클라우드를 만들었습니다.')
 
 # 워드클라우드 생성
 #if filtered_df.shape[0] > 0:
