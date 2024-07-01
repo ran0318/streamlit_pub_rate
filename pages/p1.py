@@ -47,21 +47,21 @@ st.write(f"검색된 기사 수: {filtered_df.shape[0]} 개")
 st.write('검색된 기사의 본문으로 워드 클라우드를 만들었습니다.')
 
 # 워드클라우드 생성
-if filtered_df.shape[0] > 0:
+#if filtered_df.shape[0] > 0:
     # 기사 본문을 모두 합치기
-    text = ' '.join(filtered_df['text'].tolist())
+    #text = ' '.join(filtered_df['text'].tolist())
     #폰트
-    plt.rcParams['font.family'] = 'Gulim'
+    #plt.rcParams['font.family'] = 'Gulim'
     
     # 워드클라우드 생성 및 표시
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
-    plt.figure(figsize=(10, 6))
-    plt.imshow(wordcloud, interpolation='bilinear')
-    plt.axis('off')
-    st.pyplot()
+    #wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+    #plt.figure(figsize=(10, 6))
+    #plt.imshow(wordcloud, interpolation='bilinear')
+    #plt.axis('off')
+    #st.pyplot()
 
-else:
-    st.write("검색된 기사가 없습니다.")
+#els
+# #st.write("검색된 기사가 없습니다.")
 
 
 
