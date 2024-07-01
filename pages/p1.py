@@ -76,4 +76,3 @@ st.download_button(
     file_name='newslist.csv', 
     mime='text/csv'
 )
-
