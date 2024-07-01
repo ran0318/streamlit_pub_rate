@@ -1,7 +1,5 @@
 import streamlit as st
 
-
-
 st.set_page_config(page_title="홈페이지", 
 page_icon=":sunglasses:")
 st.title("홈페이지")
